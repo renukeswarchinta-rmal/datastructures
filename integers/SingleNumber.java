@@ -3,6 +3,7 @@ package integers;
 import java.util.HashSet;
 import java.util.Set;
 
+// Get non repeated number in given array. There will be only one number which is not repeating
 public class SingleNumber {
     public static void main(String[] args) {
         System.out.println(singleNumber(new int[]{4,4,3,1,2,1,2}));
